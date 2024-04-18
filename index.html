@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.ft{
+height: 48px;
+ width: 60px;
+ border-radius: 30px;
+ background-color: rgb(165, 69, 149);
+ border-color: rgb(34, 24, 24);
+}
+.ft:hover{
+    background-color: rgba(212, 148, 202, 0.714);
+    width: 60px;
+    height: 40px;
+}
+.wg{
+    width: 24px;
+    height: 24px;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: none;
+  gap: 20px;
+  margin: 20px 20px;
+}
+
+.ge{
+    width: 24px;
+    height: 24px;
+}
+a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+.you{
+    font-size: 24px;
+    display: flex;
+    gap: 22px;
+}
+a:hover{
+    background-color: rgba(240, 185, 226, 0.742);
+}
+h1{
+    padding: 10px;
+}
+
+
+
+body{
+        font-family:cursive;
+        width: 800px;
+    }
+    thead{
+        background-color: rgb(183, 54, 120);
+    }
+    tbody :nth-child(odd){
+        background-color:rgb(205, 135, 199) ;
+
+    }
+    tbody :nth-child(even){
+        background-color: rgb(145, 112, 152);
+    }
+    th,tr{
+        padding:10px;
+    }
+    
+    table{
+        width: 600px;
+        height: 450px;
+    }
+
+</style>
+
+
+</head>
+<body>
+
+    <h1>PAGINATION</h1>
+    
+    <div class="head">
+       <button class="ft">
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="wg">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+         </svg>
+      </button>
+      <div class="you">
+       <a  class="ge" href="">1</a>
+       <a  class="ge" href="">2</a>
+       <a  class="ge" href="">3</a>
+       <a  class="ge" href="">4</a>
+       <a  class="ge" href="">5</a>
+       <a  class="ge" href="">6</a>
+       <a  class="ge" href="">7</a>
+       <span>.........</span>
+       <a  class="ge" href="">95</a>
+       <a  class="ge" href="">96</a>
+       <a  class="ge" href="">97</a>
+       <a  class="ge" href="">98</a>
+       <a  class="ge" href="">99</a>
+
+      </div>
+       <button class="ft">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="wg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+          
+       </button>
+
+    </div>
+
+
+    <br><br>
+    <h1>TABLE</h1>
+    <center>
+
+        <table border="1">
+            
+            <thead>
+                
+                <th>MOVIES</th>
+                <th>ACTOR</th>
+                <th>ACTRESS</th>
+                <th>DAYS</th>
+                
+            </thead>
+            <tbody>
+                <tr> 
+                    <th>pokiri</th>
+                    <td>mahesh babu</td>
+                    <td>kajal</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+            <th>janu</th>
+            <td>nandhu</td>
+            <td>samantha</td>
+            <td>50</td>
+            
+        </tr>
+        <tr>
+            <th>Baby</th>
+            <td>Ajay</td>
+            <td>bujji</td>
+            <td>75</td>
+            
+        </tr>
+        <tr> 
+            <th>Ariya</th>
+            <td>Banni</td>
+            <td>priya</td>
+            <td>30</td>
+            
+        </tr>
+        <tr>
+            <th>Hero</th>
+            <td>ganesh</td>
+            <td>Ajay</td>
+            <td>100</td>
+            
+        </tr>
+        
+        
+        
+    </tbody>
+    
+    
+</center>
+</table>
+    
+</body>
+</html>
